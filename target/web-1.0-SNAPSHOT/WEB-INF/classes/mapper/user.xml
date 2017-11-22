@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fzu.dao.dao.UserDao">
+    <resultMap id="UserMap" type="com.fzu.dao.entity.User" >
+        <id column="id" property="id" javaType="int" jdbcType="INTEGER" />
+        <result column="user_name" property="userName" javaType="string" jdbcType="VARCHAR" />
+        <result column="user_password" property="userPassword" javaType="string" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id, user_name, user_password
+    </sql>
+    <sql id="Base_Column_List_1" >
+        id, user_name
+    </sql>
+    <select id="find" parameterType="com.fzu.dao.entity.User" resultMap="UserMap">
+        SELECT
+        <include refid="Base_Column_List" />
+        FROM user
+        WHERE user_name = #{userName} AND user_password = #{userPassword}
+    </select>
+
+    <select id="findName" parameterType="com.fzu.dao.entity.User" resultMap="UserMap">
+        SELECT
+        <include refid="Base_Column_List_1" />
+        FROM user
+        WHERE user_name = #{userName}
+    </select>
+
+    <select id="insertUser" parameterType="com.fzu.dao.entity.User" resultMap="UserMap">
+        INSERT INTO user (user_name,user_password)  VALUES (#{userName},#{userPassword})
+    </select>
+</mapper>
