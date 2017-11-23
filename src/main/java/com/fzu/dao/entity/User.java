@@ -4,19 +4,55 @@ package com.fzu.dao.entity;
  * Created by weng on 2017/11/19.
  */
 public class User {
-    private int id;
+    private String userId;
     private String userName;
     private String userPassword;
+    private  String userRelname;
+    private String userMajor;
+    private  String userPhone;
+    private String userEmail;
 
     public User() {
     }
 
-    public int getId() {
-        return id;
+    public String getUserId() {
+        return userId;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public String getUserRelname() {
+        return userRelname;
+    }
+
+    public String getUserMajor() {
+        return userMajor;
+    }
+
+    public String getUserPhone() {
+        return userPhone;
+    }
+
+    public String getUserEmail() {
+        return userEmail;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
+    public void setUserRelname(String userRelname) {
+        this.userRelname = userRelname;
+    }
+
+    public void setUserMajor(String userMajor) {
+        this.userMajor = userMajor;
+    }
+
+    public void setUserPhone(String userPhone) {
+        this.userPhone = userPhone;
+    }
+
+    public void setUserEmail(String userEmail) {
+        this.userEmail = userEmail;
     }
 
     public String getUserName() {
@@ -38,9 +74,13 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
+                "userId='" + userId + '\'' +
                 ", userName='" + userName + '\'' +
                 ", userPassword='" + userPassword + '\'' +
+                ", userRelname='" + userRelname + '\'' +
+                ", userMajor='" + userMajor + '\'' +
+                ", userPhone='" + userPhone + '\'' +
+                ", userEmail='" + userEmail + '\'' +
                 '}';
     }
 }

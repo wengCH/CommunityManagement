@@ -43,10 +43,18 @@ public class UserController {
     private String register(RegisterUser registerUser){
         String name = registerUser.getName();
         String pwd = registerUser.getPwd();
+        String relname = registerUser.getRelname();
+        String major = registerUser.getMajor();
+        String phone = registerUser.getPhone();
+        String email = registerUser.getEmail();
 
         User user = new User();
         user.setUserName(name);
         user.setUserPassword(pwd);
+        user.setUserRelname(relname);
+        user.setUserMajor(major);
+        user.setUserPhone(phone);
+        user.setUserEmail(email);
 
         if(null != userService.checkRegister(user)){
             return "register fail" + name ;

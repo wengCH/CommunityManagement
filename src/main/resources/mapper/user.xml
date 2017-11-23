@@ -6,14 +6,23 @@
         <id column="id" property="id" javaType="int" jdbcType="INTEGER" />
         <result column="user_name" property="userName" javaType="string" jdbcType="VARCHAR" />
         <result column="user_password" property="userPassword" javaType="string" jdbcType="VARCHAR" />
+        <result column="user_relname" property="userRelname" javaType="string" jdbcType="VARCHAR" />
+        <result column="user_major" property="userMajor" javaType="string" jdbcType="VARCHAR" />
+        <result column="user_phone" property="userPhone" javaType="string" jdbcType="VARCHAR" />
+        <result column="user_email" property="userEmail" javaType="string" jdbcType="VARCHAR" />
     </resultMap>
 
     <sql id="Base_Column_List" >
-        id, user_name, user_password
+        user_name, user_password
     </sql>
     <sql id="Base_Column_List_1" >
-        id, user_name
+        user_name
     </sql>
+    <sql id="Base_Column_List_2" >
+        user_name, user_password, user_relname, user_major, user_phone, user_email
+    </sql>
+
+
     <select id="find" parameterType="com.fzu.dao.entity.User" resultMap="UserMap">
         SELECT
         <include refid="Base_Column_List" />
@@ -29,6 +38,6 @@
     </select>
 
     <select id="insertUser" parameterType="com.fzu.dao.entity.User" resultMap="UserMap">
-        INSERT INTO user (user_name,user_password)  VALUES (#{userName},#{userPassword})
+        INSERT INTO user (<include refid="Base_Column_List_2" />) VALUES (#{userName},#{userPassword},#{userRelname},#{userMajor},#{userPhone},#{userEmail})
     </select>
 </mapper>
