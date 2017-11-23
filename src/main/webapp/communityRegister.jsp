@@ -23,11 +23,11 @@
         <a>请 输 入 邮 箱：</a><input type="text" name="email" value="10086@qq.com"/><br>
         <input type="submit" value="注 册"/>
     </form>
+    <a href="userLogin.jsp" rel="external nofollow">个人登陆</a>
+    <a>|</a>
     <a href="userRegister.jsp" rel="external nofollow">个人注册</a>
     <a>|</a>
     <a href="communityLogin.jsp" rel="external nofollow">社团登陆</a>
-    <a>|</a>
-    <a href="communityRegister.jsp" rel="external nofollow">社团注册</a>
 </div>
 </body>
 </html>

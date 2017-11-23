@@ -44,6 +44,7 @@ public class UserController {
         String name = registerUser.getName();
         String pwd = registerUser.getPwd();
         String relname = registerUser.getRelname();
+        String sex = registerUser.getSex();
         String major = registerUser.getMajor();
         String phone = registerUser.getPhone();
         String email = registerUser.getEmail();
@@ -52,6 +53,7 @@ public class UserController {
         user.setUserName(name);
         user.setUserPassword(pwd);
         user.setUserRelname(relname);
+        user.setUserSex(sex);
         user.setUserMajor(major);
         user.setUserPhone(phone);
         user.setUserEmail(email);

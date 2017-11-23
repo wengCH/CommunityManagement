@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fzu.dao.dao.CommunityDao">
+    <resultMap id="CommunityMap" type="com.fzu.dao.entity.Community" >
+        <id column="id" property="id" javaType="int" jdbcType="INTEGER" />
+        <result column="community_name" property="communityName" javaType="string" jdbcType="VARCHAR" />
+        <result column="community_password" property="communityPassword" javaType="string" jdbcType="VARCHAR" />
+        <result column="community_introduction" property="communityIntroduction" javaType="string" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        community_id, community_password
+    </sql>
+    <sql id="Base_Column_List_1" >
+        community_id, community_name
+    </sql>
+    <sql id="Base_Column_List_2" >
+        community_id, community_name, community_password, community_introduction
+    </sql>
+
+
+    <select id="find" parameterType="com.fzu.dao.entity.Community" resultMap="CommunityMap">
+        SELECT
+        <include refid="Base_Column_List" />
+        FROM community
+        WHERE community_id = #{communityId} AND community_password = #{communityPassword}
+    </select>
+
+    <select id="findName" parameterType="com.fzu.dao.entity.Community" resultMap="CommunityMap">
+        SELECT
+        <include refid="Base_Column_List_1" />
+        FROM community
+        WHERE community_id = #{communityId} AND community_name = #{communityName}
+    </select>
+
+    <select id="insertUser" parameterType="com.fzu.dao.entity.Community" resultMap="CommunityMap">
+        INSERT INTO community (<include refid="Base_Column_List_2" />) VALUES (#{communityId}, #{communityName},#{communityPassword},#{communityIntroduction})
+    </select>
+</mapper>

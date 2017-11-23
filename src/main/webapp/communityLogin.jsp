@@ -14,11 +14,11 @@
 <body>
 <h1>社 团 登 陆</h1>
 <form method="POST" action="community/login.do">
-    <a>用户名（学号）：</a><input type="text" name="name" value=""/><br>
+    <a>用户名（社团号）：</a><input type="text" name="name" value=""/><br>
     <a>请 输 入 密 码：</a><input type="text" name="pwd" value=""/><br>
     <input type="submit" value="提交"/>
 </form>
-<a href="index.jsp" rel="external nofollow">个人登陆</a>
+<a href="userLogin.jsp" rel="external nofollow">个人登陆</a>
 <a>|</a>
 <a href="userRegister.jsp" rel="external nofollow">个人注册</a>
 <a>|</a>

@@ -8,6 +8,7 @@ public class RegisterUser {
     private String name;
     private String pwd;
     private  String relname;
+    private String sex;
     private String major;
     private  String phone;
     private String email;
@@ -29,6 +30,10 @@ public class RegisterUser {
 
     public String getRelname() {
         return relname;
+    }
+
+    public String getSex() {
+        return sex;
     }
 
     public String getMajor() {
@@ -59,6 +64,10 @@ public class RegisterUser {
         this.relname = relname;
     }
 
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
     public void setMajor(String major) {
         this.major = major;
     }
@@ -78,6 +87,7 @@ public class RegisterUser {
                 ", name='" + name + '\'' +
                 ", pwd='" + pwd + '\'' +
                 ", relname='" + relname + '\'' +
+                ", sex='" + sex + '\'' +
                 ", major='" + major + '\'' +
                 ", phone='" + phone + '\'' +
                 ", email='" + email + '\'' +
