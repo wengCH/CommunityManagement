@@ -4,7 +4,7 @@
 <mapper namespace="com.fzu.dao.dao.CommunityDao">
     <resultMap id="CommunityMap" type="com.fzu.dao.entity.Community" >
         <id column="id" property="id" javaType="int" jdbcType="INTEGER" />
-        <result column="community_name" property="communityName" javaType="string"jdbcType="VARCHAR" />
+        <result column="community_name" property="communityName" javaType="string" jdbcType="VARCHAR" />
         <result column="community_password" property="communityPassword" javaType="string" jdbcType="VARCHAR" />
         <result column="community_cname" property="communityCname" javaType="string" jdbcType="VARCHAR" />
         <result column="community_introduction" property="communityIntroduction" javaType="string" jdbcType="VARCHAR" />
@@ -35,7 +35,7 @@
         WHERE community_name = #{communityName} AND community_cname = #{communityCname}
     </select>
 
-    <select id="insertUser" parameterType="com.fzu.dao.entity.Community" resultMap="CommunityMap">
+    <select id="insertCommunity" parameterType="com.fzu.dao.entity.Community" resultMap="CommunityMap">
         INSERT INTO community (<include refid="Base_Column_List_2" />) VALUES ( #{communityName},#{communityPassword},#{communityCname},#{communityIntroduction})
     </select>
 </mapper>

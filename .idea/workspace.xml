@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2273b454-5390-4c4c-ab1c-17f42416ee0a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/community.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/community.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzu/controller/CommunityController.class" afterPath="$PROJECT_DIR$/target/classes/com/fzu/controller/CommunityController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzu/dao/entity/Community.class" afterPath="$PROJECT_DIR$/target/classes/com/fzu/dao/entity/Community.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzu/dao/server/impl/CommunityServicempl.class" afterPath="$PROJECT_DIR$/target/classes/com/fzu/dao/server/impl/CommunityServicempl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzu/entity/LoginCommunity.class" afterPath="$PROJECT_DIR$/target/classes/com/fzu/entity/LoginCommunity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzu/entity/RegisterCommunity.class" afterPath="$PROJECT_DIR$/target/classes/com/fzu/entity/RegisterCommunity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/fzu/controller/CommunityController.class" afterPath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/fzu/controller/CommunityController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/fzu/dao/entity/Community.class" afterPath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/fzu/dao/entity/Community.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/fzu/dao/server/impl/CommunityServicempl.class" afterPath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/fzu/dao/server/impl/CommunityServicempl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/fzu/entity/LoginCommunity.class" afterPath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/fzu/entity/LoginCommunity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/fzu/entity/RegisterCommunity.class" afterPath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/fzu/entity/RegisterCommunity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzu/controller/CommunityController.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/controller/CommunityController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzu/dao/entity/Community.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/dao/entity/Community.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzu/dao/server/impl/CommunityServicempl.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/dao/server/impl/CommunityServicempl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzu/entity/LoginCommunity.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/entity/LoginCommunity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzu/entity/RegisterCommunity.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzu/entity/RegisterCommunity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/community.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/community.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/communityLogin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/communityLogin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/communityRegister.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/communityRegister.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/userLogin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/userLogin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/community.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/community.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/mapper/community.xml" afterPath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/mapper/community.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/communityLogin.jsp" afterPath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/communityLogin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/communityRegister.jsp" afterPath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/communityRegister.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/userLogin.jsp" afterPath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/userLogin.jsp" />
     </list>
     <ignored path="mavenWeb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +30,8 @@
       <file leaf-file-name="CommunityController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fzu/controller/CommunityController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+            <state relative-caret-position="760">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,7 +52,7 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="266">
               <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding />
             </state>
@@ -96,11 +71,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Community.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Community.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fzu/dao/entity/Community.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+            <state relative-caret-position="453">
+              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="community.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/community.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding>
+                <marker date="1511519025506" expanded="true" signature="1221:1389" ph="SELECT FROM community" />
+                <marker date="1511519025506" expanded="true" signature="1510:1674" ph="SELECT FROM community" />
+                <marker date="1511519025506" expanded="true" signature="1802:1955" ph="INSERT INTO community... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommunityDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fzu/dao/dao/CommunityDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -111,26 +110,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
               <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="communityRegister.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/communityRegister.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userLogin.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/userLogin.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -223,9 +202,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fzu/entity/LoginCommunity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzu/controller/CommunityController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzu/entity/RegisterCommunity.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/community.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/fzu/dao/entity/Community.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/community.xml" />
       </list>
     </option>
   </component>
@@ -288,7 +267,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -645,8 +623,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1226,12 +1205,13 @@
       <workItem from="1511406307169" duration="7001000" />
       <workItem from="1511451460362" duration="9586000" />
       <workItem from="1511500405163" duration="6203000" />
-      <workItem from="1511506659000" duration="277000" />
+      <workItem from="1511506659000" duration="466000" />
+      <workItem from="1511518394475" duration="741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51756000" />
+    <option name="totallyTimeSpent" value="52686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -1493,14 +1473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzu/dao/dao/CommunityDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/user.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -1509,18 +1481,6 @@
             <marker date="1511500270562" expanded="true" signature="1409:1552" ph="SELECT FROM user" />
             <marker date="1511500270562" expanded="true" signature="1663:1772" ph="SELECT FROM user" />
             <marker date="1511500270562" expanded="true" signature="1885:2044" ph="INSERT INTO user... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/community.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <marker date="1511506547499" expanded="true" signature="1220:1388" ph="SELECT FROM community" />
-            <marker date="1511506547499" expanded="true" signature="1509:1673" ph="SELECT FROM community" />
-            <marker date="1511506547499" expanded="true" signature="1796:1949" ph="INSERT INTO community... " />
           </folding>
         </state>
       </provider>
@@ -1585,29 +1545,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fzu/controller/CommunityController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+        <state relative-caret-position="760">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzu/dao/entity/Community.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="453">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzu/dao/entity/Community.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzu/dao/dao/CommunityDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        <state relative-caret-position="171">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/community.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <marker date="1511519025506" expanded="true" signature="1221:1389" ph="SELECT FROM community" />
+            <marker date="1511519025506" expanded="true" signature="1510:1674" ph="SELECT FROM community" />
+            <marker date="1511519025506" expanded="true" signature="1802:1955" ph="INSERT INTO community... " />
+          </folding>
         </state>
       </provider>
     </entry>
