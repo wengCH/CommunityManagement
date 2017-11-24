@@ -7,9 +7,9 @@ import com.fzu.entity.RegisterUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.annotation.Resource;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  * Created by weng on 2017/11/19.
@@ -22,25 +22,31 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping("login.do")
-    @ResponseBody
-    private String login(LoginUser loginUser){
+    private ModelAndView login(LoginUser loginUser){
         String name = loginUser.getName();
         String pwd = loginUser.getPwd();
+        String score = "登陆失败，请重新登陆";
 
         User user = new User();
         user.setUserName(name);
         user.setUserPassword(pwd);
 
         if(null != userService.checkLogin(user)){
-            return "login success" + name ;
-        }else {
-            return "login fail" + name;
+            System.out.print("登陆成功");
+            ModelMap modelMap=new ModelMap();
+            modelMap.put("name",name);
+            modelMap.put("pwd",pwd);
+            return new ModelAndView("userIndex.jsp", modelMap);
+       }else {
+            System.out.print("登陆失败");
+            ModelMap modelMap=new ModelMap();
+            modelMap.put("score",score);
+            return new ModelAndView("userLogin.jsp", modelMap);
         }
     }
 
     @RequestMapping("register.do")
-    @ResponseBody
-    private String register(RegisterUser registerUser){
+    private ModelAndView register(RegisterUser registerUser){
         String name = registerUser.getName();
         String pwd = registerUser.getPwd();
         String relname = registerUser.getRelname();
@@ -48,6 +54,7 @@ public class UserController {
         String major = registerUser.getMajor();
         String phone = registerUser.getPhone();
         String email = registerUser.getEmail();
+        String score;
 
         User user = new User();
         user.setUserName(name);
@@ -59,10 +66,18 @@ public class UserController {
         user.setUserEmail(email);
 
         if(null != userService.checkRegister(user)){
-            return "register fail" + name ;
+            System.out.print("注册失败");
+            score = "用户已被注册";
+            ModelMap modelMap=new ModelMap();
+            modelMap.put("score",score);
+            return new ModelAndView("userRegister.jsp", modelMap);
         }else {
             userService.insertRegister(user);
-            return "register success" + name;
+            System.out.print("注册成功");
+            score = "注册成功";
+            ModelMap modelMap=new ModelMap();
+            modelMap.put("score",score);
+            return new ModelAndView("userLogin.jsp", modelMap);
         }
     }
 }
