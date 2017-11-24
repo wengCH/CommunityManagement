@@ -14,8 +14,8 @@
 <body>
 <h1>社 团 登 陆</h1>
 <form method="POST" action="community/login.do">
-    <a>用户名（社团号）：</a><input type="text" name="name" value=""/><br>
-    <a>请 输 入 密 码：</a><input type="text" name="pwd" value=""/><br>
+    <a>用户名（社团号）：</a><input type="text" name="name" value="10001"/><br>
+    <a>请 输 入 密 码：</a><input type="password" name="pwd" value="123"/><br>
     <input type="submit" value="提交"/>
 </form>
 <a href="userLogin.jsp" rel="external nofollow">个人登陆</a>

@@ -14,13 +14,11 @@
 <div>
     <h1>社 团 注 册</h1>
     <form action="community/register.do" method="post">
-        <a>用户名（学号）：</a><input type="text" name="name" value="031502300"/><br>
+        <a>用户名（社团号）：</a><input type="text" name="name" value="10001"/><br>
+        <a>请输入社团名称：</a><input type="text" name="cname" value="棋牌社"/><br>
         <a>请 输 入 密 码：</a><input type="password" name="pwd" value="maliu"/><br>
         <a>请 再 次 输 入：</a><input type="password" name="pwd2" value="maliu"/><br>
-        <a>请输入真实姓名：</a><input type="text" name="relname" value="马六"/><br>
-        <a>请 输 入 专 业：</a><input type="text" name="major" value="computer"/><br>
-        <a>请 输 入 手 机：</a><input type="text" name="phone" value="13800000000"/><br>
-        <a>请 输 入 邮 箱：</a><input type="text" name="email" value="10086@qq.com"/><br>
+        <a>请输入社团简介：</a><textarea name="introduction" style="width:200px;height:80px;" value="棋牌社是****，欢迎加入！"></textarea><br>
         <input type="submit" value="注 册"/>
     </form>
     <a href="userLogin.jsp" rel="external nofollow">个人登陆</a>

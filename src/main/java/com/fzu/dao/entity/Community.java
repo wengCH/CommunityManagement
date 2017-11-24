@@ -4,16 +4,16 @@ package com.fzu.dao.entity;
  * Created by weng on 2017/11/24.
  */
 public class Community {
-    private String communityId;
     private String communityName;
     private String communityPassword;
+    private String communityCname;
     private String communityIntroduction;
 
     public Community(){
     }
 
-    public String getCommunityId() {
-        return communityId;
+    public String getCommunityCname() {
+        return communityCname;
     }
 
     public String getCommunityName() {
@@ -28,12 +28,12 @@ public class Community {
         return communityIntroduction;
     }
 
-    public void setCommunityId(String communityId) {
-        this.communityId = communityId;
-    }
-
     public void setCommunityName(String communityName) {
         this.communityName = communityName;
+    }
+
+    public void setCommunityCname(String communityCname) {
+        this.communityCname = communityCname;
     }
 
     public void setCommunityPassword(String communityPassword) {
@@ -47,9 +47,9 @@ public class Community {
     @Override
     public String toString() {
         return "Community{" +
-                "communityId='" + communityId + '\'' +
-                ", communityName='" + communityName + '\'' +
+                "communityName='" + communityName + '\'' +
                 ", communityPassword='" + communityPassword + '\'' +
+                ", communityCname='" + communityCname + '\'' +
                 ", communityIntroduction='" + communityIntroduction + '\'' +
                 '}';
     }

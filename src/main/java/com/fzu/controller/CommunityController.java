@@ -20,31 +20,31 @@ public class CommunityController {
     @RequestMapping("login.do")
     @ResponseBody
     private String login(LoginCommunity loginCommunity){
-        String id = loginCommunity.getId();
+        String name = loginCommunity.getName();
         String pwd = loginCommunity.getPwd();
 
         Community community = new Community();
-        community.setCommunityId(id);
+        community.setCommunityName(name);
         community.setCommunityPassword(pwd);
 
         if(null != communityService.checkLogin(community)){
-            return "login success" + id ;
+            return "login success" + name ;
         }else {
-            return "login fail" + id;
+            return "login fail" + name;
         }
     }
 
     @RequestMapping("register.do")
     @ResponseBody
     private String register(RegisterCommunity registerCommunity){
-        String id = registerCommunity.getId();
         String name = registerCommunity.getName();
+        String cname = registerCommunity.getCname();
         String pwd = registerCommunity.getPwd();
         String introduction = registerCommunity.getIntroduction();
 
         Community community = new Community();
-        community.setCommunityId(id);
         community.setCommunityName(name);
+        community.setCommunityCname(cname);
         community.setCommunityPassword(pwd);
         community.setCommunityIntroduction(introduction);
 

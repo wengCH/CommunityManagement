@@ -10,6 +10,7 @@ import javax.annotation.Resource;
 /**
  * Created by weng on 2017/11/24.
  */
+@Service
 public class CommunityServicempl implements CommunityService {
 
     @Autowired

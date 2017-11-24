@@ -8,7 +8,7 @@
 <h1>个 人 登 陆</h1>
 <form method="POST" action="user/login.do">
     <a>用户名（学号）：</a><input type="text" name="name" value=""/><br>
-    <a>请 输 入 密 码：</a><input type="text" name="pwd" value=""/><br>
+    <a>请 输 入 密 码：</a><input type="password" name="pwd" value=""/><br>
     <input type="submit" value="提交"/>
 </form>
 <a href="userRegister.jsp" rel="external nofollow">个人注册</a>

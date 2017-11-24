@@ -4,14 +4,10 @@ package com.fzu.entity;
  * Created by weng on 2017/11/24.
  */
 public class RegisterCommunity {
-    private String id;
     private String name;
     private String pwd;
+    private String cname;
     private String introduction;
-
-    public String getId() {
-        return id;
-    }
 
     public String getName() {
         return name;
@@ -21,12 +17,12 @@ public class RegisterCommunity {
         return pwd;
     }
 
-    public String getIntroduction() {
-        return introduction;
+    public String getCname() {
+        return cname;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public String getIntroduction() {
+        return introduction;
     }
 
     public void setName(String name) {
@@ -37,6 +33,10 @@ public class RegisterCommunity {
         this.pwd = pwd;
     }
 
+    public void setCname(String cname) {
+        this.cname = cname;
+    }
+
     public void setIntroduction(String introduction) {
         this.introduction = introduction;
     }
@@ -44,9 +44,9 @@ public class RegisterCommunity {
     @Override
     public String toString() {
         return "RegisterCommunity{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
                 ", pwd='" + pwd + '\'' +
+                ", cname='" + cname + '\'' +
                 ", introduction='" + introduction + '\'' +
                 '}';
     }

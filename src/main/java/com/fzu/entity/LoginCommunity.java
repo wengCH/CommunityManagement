@@ -4,22 +4,22 @@ package com.fzu.entity;
  * Created by weng on 2017/11/24.
  */
 public class LoginCommunity {
-    private String id;
+    private String name;
     private String pwd;
 
     public LoginCommunity() {
     }
 
-    public String getId() {
-        return id;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setPwd(String pwd) {
         this.pwd = pwd;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public String getName() {
+        return name;
     }
 
     public String getPwd() {
@@ -29,7 +29,7 @@ public class LoginCommunity {
     @Override
     public String toString() {
         return "LoginCommunity{" +
-                "id='" + id + '\'' +
+                "name='" + name + '\'' +
                 ", pwd='" + pwd + '\'' +
                 '}';
     }
