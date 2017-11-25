@@ -7,8 +7,8 @@
 <body>
 <h1>个 人 登 陆</h1>
 <form method="POST" action="login.do">
-    <a>用户名（学号）：</a><input type="text" name="name" value=""/><br>
-    <a>请 输 入 密 码：</a><input type="password" name="pwd" value=""/><br>
+    <a>用户名（学号）：</a><input type="text" name="name" value="031501001"/><br>
+    <a>请 输 入 密 码：</a><input type="password" name="pwd" value="124"/><br>
     <a>${score}</a><br>
     <input type="submit" value="提交"/>
 </form>

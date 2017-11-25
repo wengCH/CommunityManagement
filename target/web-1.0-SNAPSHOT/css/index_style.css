@@ -1,0 +1,27 @@
+#container{
+    width: 1200px;
+    height: auto;
+    background: gray;
+}
+
+#header{
+    height: 40px;
+    background: orange;
+}
+#body{
+    height: auto;
+}
+#body_left{
+    width: 180px;
+    height: auto;
+    margin: 1px;
+    background: red;
+    float: left;
+}
+#body_right{
+    width: 1016px;
+    height: auto;
+    margin: 1px;
+    background: green;
+    float: right;
+}

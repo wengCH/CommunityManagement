@@ -7,7 +7,7 @@
 <body>
 <h1>福大社团管理</h1>
 <form method="POST" action="user/login.do">
-    <img src="img/index.png"/>
+    <div><img src="img/index.png"/></div>
     <div style="height: 30px"/>
 </form>
 <a href="user/userLogin.jsp" rel="external nofollow">个人登陆</a>
